@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+font-family: Lato,sans-serif;
+}
+.card{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 24rem;
+    height: 36rem;
+    padding: 3em 4rem;
+    padding-top: 0;
+    border-radius: 26px;
+    gap: 2rem;
+    align-items:center;
+    font-weight: bold;
+    background: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+
+
+}
+.card img{
+    width: 24rem;
+    height: 35%;
+    object-fit: cover;
+    border-radius: 26px 26px 0 0;
+   
+}
+.summary h2{
+margin-bottom: 1rem;
+color: rgb(24, 14, 78);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.6rem;
+}
+.summary p{
+    letter-spacing: 1px;
+    font-weight: bold;
+    width: 280px;
+    opacity: 0.6;
+    line-height: 1.6rem;
+}
+.card .payment{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.annual-plan{
+    justify-content: space-around;
+    width: 24rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.annual-plan p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.annual-plan span{
+    opacity: .5;
+}
+.logo i{
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: .6rem;
+    border-radius: 100%;
+    opacity: .7;
+    background-color: violet;
+    
+    
+}
+.buttonclass{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    width: 80%;
+    height: 3.2rem;
+    border: none;
+    color:white ;
+    font-weight: bolder;
+    background-color: blue;
+    border-radius: 16px;
+    cursor: pointer;
+    transition:.3s all ease-in-out;
+
+}
+button:hover,button:active{
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+button:active{
+    background: blueviolet;
+}
+.buttonclass p{
+    opacity: .7;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
